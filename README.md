@@ -8,7 +8,8 @@ Each Figure has it's own matlab script and the implemented functions are collect
 #### All code are written in MATLAB and was tested on MATLAB versions 2024a and 2025a
 #### The dataset containing the processed neural activity recorded using a 2-photon Calcium Imaging can be found at: https://doi.org/10.11582/2026.gvso70gj
 #### The code runs on the standard MATLAB version (https://www.mathworks.com/products/matlab.html) please follow the instruction to install it there.
-#### Any extra function used in specific scripts are grouped together in the "Subfunction" folder.
+#### The main functions used to analyze the data are grouped in the "Functions" folder.
+#### Any extra function used in specific scripts are grouped together in the "Subfunctions" folder.
 
 ## General instructions:
 -	Each figure can be generated from its own script as identified by the file name. e.g.
@@ -18,3 +19,5 @@ Each Figure has it's own matlab script and the implemented functions are collect
 -	Further details on the analysis is provided in the method section of the manuscript. 
 
 ## Specific Instructions: 
+
+## Last updated July 2026
