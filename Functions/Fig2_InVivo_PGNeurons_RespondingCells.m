@@ -42,7 +42,7 @@ for choice =1:2
         %% Finding the responding cells
         n_stim=size(traces,2); %number of stimulus presentation
         response_time=5; %baseline duration
-        [positive_resp_cells,negative_resp_cells]=RespondingCells_InVivo_V2(traces,frame_rate,n_stim,response_time);
+        [positive_resp_cells,negative_resp_cells]=RespondingCells_InVivo(traces,frame_rate,n_stim,response_time);
 
         all_resp_cells=[positive_resp_cells;negative_resp_cells];
 
